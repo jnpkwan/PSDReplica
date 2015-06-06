@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	padding: 0px 20px;
+}
+
+.hrinbox {
+	width: 250px;
+	position: relative;
+	margin: auto;
+}
+
+header {
+	margin: auto;
+	width: 900px;
+	display: block;
+}
+
+header h1 {
+	text-align: center;
+	padding: 20px 0px 10px 0px;
+}
+
+header h4 {
+	text-align: center;
+	padding: 0px 0px 10px 0px;
+}
+
+header .topnav {
+	text-align: center;
+}
+
+section {
+	width: 900px;
+	margin: auto;
+}
+
+.main img {
+	float: left;
+}
+
+.main div {
+	float: right;
+}
+
+.searchbox {
+	background-color: #f1f1f1;
+	height: 300px;
+	width: 300px;
+}
+
+.searchbox h2 {
+	text-align: center;
+	margin: 15px;
+}
+
+.searchbox h3 {
+	text-align: center;
+	margin: 10px;
+}
+
+.searchbox p {
+	text-align: center;
+	margin: 15px;
+	font-size: 14px;
+}
+
+.searchbox button {
+	margin-top: 5px;
+}
+
+select {
+	position: relative;
+	margin-left: 100px;
+}
+
+button {
+	position: relative;
+	margin-left: 83px;
+}
+
+.topnav li, .bottomnav li {
+	display: inline;
+}
+
+.cubes img {
+	height: 300px;
+	width: 297px;
+}
+
+.cubes .emptycase {
+	background: white;
+	border: 1px solid black;
+	width: 295px;
+	height: 300px;
+	display: inline-block;
+}
+
+.footermain {
+	margin-left: 225px;
+	width: 600px;
+	height: 200px;
+	float: left;
+	background-color: #f1f1f1;
+}
+
+.footermain p {
+	font-size: small;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.footermain img {
+	height: 50px;
+	width: 300px;
+}
+
+.newsletter {
+	width: 300px;
+	height: 200px;
+	background: white;
+	border: 1px solid black;
+	float: left;
+	background-color: #f1f1f1;
+}
+
+.newsletter h3 {
+	text-align: center;
+	margin: 15px;
+}
+
+.newsletter p {
+	text-align: center;
+	margin: 10px;
+}
+
+.newsletter input {
+	margin: 5px 0px 10px 60px;
+}
+
+.newsletter button {
+	margin: 0px 0px 0px 100px;
+}
+
+.bottomnav ul {
+	padding: 20px 0px;
+	margin-left: 50px;
+}
