@@ -9,6 +9,15 @@ body {
 
 a {
 	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #778899;
+}
+
+.topnav ul {
+	margin: 10px 0px;
 }
 
 li {
@@ -21,6 +30,13 @@ li {
 	margin: auto;
 }
 
+.hrstyle {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
 header {
 	margin: auto;
 	width: 900px;
@@ -30,15 +46,24 @@ header {
 header h1 {
 	text-align: center;
 	padding: 20px 0px 10px 0px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
 }
 
 header h4 {
 	text-align: center;
 	padding: 0px 0px 10px 0px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 400;
 }
 
 header .topnav {
 	text-align: center;
+}
+
+header img {
+	height: 50px;
+	margin: 5px 0px 5px 215px;
 }
 
 section {
@@ -56,8 +81,10 @@ section {
 
 .searchbox {
 	background-color: #f1f1f1;
-	height: 300px;
-	width: 300px;
+	height: 294px;
+	width: 294px;
+	border: 3px solid #778899;
+	float: left;
 }
 
 .searchbox h2 {
@@ -94,45 +121,73 @@ button {
 	display: inline;
 }
 
+.cubes div {
+	height: 300px;
+	width: 300px;
+	display: inline-block;
+	float: left;
+}
+
 .cubes img {
 	height: 300px;
-	width: 297px;
+	width: 300px;
 }
 
 .cubes .emptycase {
 	background: white;
-	border: 1px solid black;
-	width: 295px;
-	height: 300px;
+	border: 3px solid white;
+	width: 294px;
+	height: 294px;
 	display: inline-block;
 }
 
+.emptycase h2 {
+	text-align: center;
+	margin-top: 90px;
+}
+
+.emptycase p {
+	text-align: right;
+	margin-right: 20px;
+}
+
+footer {
+	margin: auto;
+	display: block;
+	width: 900px;
+}
+
 .footermain {
-	margin-left: 225px;
 	width: 600px;
 	height: 200px;
-	float: left;
 	background-color: #f1f1f1;
+	float: left;
 }
 
 .footermain p {
 	font-size: small;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 40px;
+}
+
+.footermain h4 {
+	width: 150px;
+	float: left;
+	margin: 15px 18px 0px 40px;
 }
 
 .footermain img {
-	height: 50px;
-	width: 300px;
+	height: 65px;
+	width: 350px;
 }
 
 .newsletter {
-	width: 300px;
-	height: 200px;
-	background: white;
-	border: 1px solid black;
+	width: 294px;
+	height: 194px;
 	float: left;
+	border: 3px solid #778899;
 	background-color: #f1f1f1;
+	display: inline-block;
 }
 
 .newsletter h3 {
@@ -154,6 +209,7 @@ button {
 }
 
 .bottomnav ul {
-	padding: 20px 0px;
+	padding-top: 20px;
+	padding-bottom: 15px;
 	margin-left: 50px;
 }
