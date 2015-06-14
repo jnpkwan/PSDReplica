@@ -73,10 +73,12 @@ section {
 
 .main img {
 	float: left;
+	margin-bottom: 5px;
 }
 
 .main div {
 	float: right;
+	margin-bottom: 5px;
 }
 
 .searchbox {
@@ -143,7 +145,8 @@ button {
 
 .emptycase h2 {
 	text-align: center;
-	margin-top: 90px;
+	margin: 90px 20px 0px 20px;
+
 }
 
 .emptycase p {
@@ -162,6 +165,7 @@ footer {
 	height: 200px;
 	background-color: #f1f1f1;
 	float: left;
+	margin-top: 5px;
 }
 
 .footermain p {
@@ -188,6 +192,7 @@ footer {
 	border: 3px solid #778899;
 	background-color: #f1f1f1;
 	display: inline-block;
+	margin-top: 5px;
 }
 
 .newsletter h3 {
@@ -212,4 +217,57 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 15px;
 	margin-left: 50px;
+}
+
+@media (max-width: 675px) {
+	* {
+		float: none;
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	header, section, footer {
+		width: 600px;
+	}
+
+	header img {
+		width: 467px;
+		margin: 5px 0px 5px 63px;
+	}
+
+	section .welcomepic {
+		margin: 0 auto;
+		width: 600px;
+	}
+
+	section .searchbox {
+		width: 294px;
+		margin: 0;
+		padding: 0;
+		float: right;
+	}
+
+	section .cubes {
+		width: 600px;
+	}
+
+	section.newsletter {
+		position: absolute;
+		display: inline-block;
+		width: 594px;
+		margin-top: 1801px;
+		margin-left: -600px;
+		text-align: center;
+	}
+
+	.newsletter input, .newsletter button {
+		margin-left: 0%;
+	}
+
+	section.footermain {
+		margin-top: 200px;
+	}
 }
